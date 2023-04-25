@@ -1,0 +1,16 @@
+# leetgo project level config, global config is at /home/vb/.config/leetgo/config.yaml
+# for more details, please refer to https://github.com/j178/leetgo
+language: zh
+code:
+  lang: go
+  cpp:
+  blocks:
+  - name: beforeMarker 
+    template: |
+      package main
+leetcode:
+  site: https://leetcode.cn
+#  credentials:
+#    from: browser
+#editor:
+#  use: none
